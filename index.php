@@ -8,13 +8,20 @@
 </head>
 <body>
     <h1>Ejercicio Git en parejas: Sergio y Presley</h1>
+    <?php
+      echo "<h1>Ejercicio Git en parejas: Sergio y Presley</h1>";
+      if(isset($_POST['contrasena'])){
+          if($_POST['contrasena']=="daw2"){
+              echo "Bienvenido $_POST['nombre']";
+          }
+      }
+    ?>
     <form method="post" action="index.php"> 
         <input type="text" name="nombre" placeholder="Nombre" required="required" /> 
         <input type="password" name="contrasena" placeholder="Contraseña" required="required" /> 
         <button type="submit">Pulsame</button> 
     </form>
-    <?php
-        echo "";
-    ?>
+    
 </body>
 </html>
+
