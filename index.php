@@ -10,6 +10,7 @@
     <h1>Ejercicio Git en parejas: Sergio y Presley</h1>
     <?php
         echo "<h1>Ejercicio Git en parejas: Sergio y Presley</h1>";
+        echo "<h2>Nuevo subtitulo</h2>";
         echo "<p>Este es un nuevo parrafo</p>";
       if(isset($_POST['contrasena'])){
           if($_POST['contrasena']=="daw2"){
@@ -22,7 +23,7 @@
         <input type="password" name="contrasena" placeholder="Contraseña" required="required" /> 
         <button type="submit">Pulsame</button> 
     </form>
-    
+
 </body>
 </html>
 
