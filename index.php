@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-<?php
-    echo "<h1>Ejercicio Git en parejas: Sergio y Presley</h1>";
-    echo "<p>Este es un nuevo parrafo</p>";
-?>
-=======
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -15,7 +9,8 @@
 <body>
     <h1>Ejercicio Git en parejas: Sergio y Presley</h1>
     <?php
-      echo "<h1>Ejercicio Git en parejas: Sergio y Presley</h1>";
+        echo "<h1>Ejercicio Git en parejas: Sergio y Presley</h1>";
+        echo "<p>Este es un nuevo parrafo</p>";
       if(isset($_POST['contrasena'])){
           if($_POST['contrasena']=="daw2"){
               echo "Bienvenido $_POST['nombre']";
@@ -31,4 +26,3 @@
 </body>
 </html>
 
->>>>>>> d6ce3c000cd562bd766cd4c836cc2de416640de1
