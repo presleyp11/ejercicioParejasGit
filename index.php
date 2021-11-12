@@ -14,7 +14,7 @@
         <button type="submit">Pulsame</button> 
     </form>
     <?php
-        echo "";
+        echo "<h2>Nuevo subtitulo</h2>";
     ?>
 </body>
 </html>
